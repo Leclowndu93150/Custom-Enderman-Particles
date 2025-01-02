@@ -41,6 +41,7 @@ public class ModParticles {
             this.rCol = 1.0F;
             this.gCol = 1.0F;
             this.bCol = 1.0F;
+            this.quadSize = ParticleConfig.getParticleSize();
         }
 
         public static class Provider implements net.minecraft.client.particle.ParticleProvider<SimpleParticleType> {
